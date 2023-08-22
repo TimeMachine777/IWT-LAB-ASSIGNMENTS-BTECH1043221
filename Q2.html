@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Modern CV</title>
+    <style>
+        body {
+            font-family: 'Ubuntu', Arial, sans-serif;
+            background: linear-gradient(to right, #3D74AA, #86c646);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .cv-container {
+            background-color: #fffecd;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+            padding: 30px;
+            text-align: left;
+        }
+
+        .cv-header {
+            font-size: 48px;
+            color: #5F539F;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-style: double;
+            text-decoration-color: #86c646;
+        }
+
+        .cv-section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h3 {
+            font-size: 28px;
+            color: #5F539F;
+            margin-bottom: 15px;
+        }
+
+        th {
+            font-weight: bold;
+            color: #5F539F;
+            text-align: left;
+            padding-right: 20px;
+        }
+
+        td {
+            padding: 5px 0;
+        }
+
+        ul {
+            padding-left: 0;
+            text-align: left;
+            margin-top: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+            position: relative;
+        }
+
+        /* li:before {
+            content: "-->";
+            position: absolute;
+            left: -20px;
+            color: #5F539F;
+            font-weight: bold;
+        } */
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cv-container">
+        <h1 class="cv-header">CV</h1>
+        <div class="cv-section">
+            <h3>Personal Details</h3>
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td>Gaurang Dixit</td>
+                </tr>
+                <tr>
+                    <th>Contact Number:</th>
+                    <td>1234567890</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>abcd@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="cv-section">
+            <h3>Educational Details</h3>
+            <table>
+                <tr>
+                    <th>Bachelor's:</th>
+                    <td>BTECH - IT, BIT MESRA</td>
+                </tr>
+                <tr>
+                    <th>12th & 10th:</th>
+                    <td>ABC School, XYZ CITY</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="cv-section">
+            <h3>Skills</h3>
+            <div>
+                <h4>Technical:</h4>
+                <ul>
+                    <li>DSA</li>
+                    <li>DBMS</li>
+                    <li>Game Dev</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Soft:</h4>
+                <ul>
+                    <li>Ethical</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
